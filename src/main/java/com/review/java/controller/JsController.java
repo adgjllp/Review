@@ -11,7 +11,7 @@ public class JsController {
     @RequestMapping("/hello")
     public String hello(@RequestParam(name = "name")String name ,Model model){
         model.addAttribute(name);
-        return "hello";
+        return "helloWorld";
 
     }
 }
